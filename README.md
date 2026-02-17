@@ -29,7 +29,48 @@ Este repositorio contiene las notas, ejercicios y proyectos desarrollados durant
 ## 📁 Estructura del Repositorio
 
 ```
-
+rnaseq_2026_notas/
+│
+├── README.md                    # Este archivo
+├── rnaseq_2026_notas.Rproj      # Proyecto de RStudio
+├── .gitignore                    # Archivos ignorados por Git
+│
+├── notas/                        # Notas de clase en Markdown
+│   ├── 01_IntroduccionRGithubED.md
+│   ├── 02_Bioconductor.md
+│   ├── 03_ObjetosBioconductor.md
+│   ├── 04_Recount.md
+│   ├── 05_ModelosEstadisticos.md
+│   └── Platicas_rna.md
+│
+├── R/                            # Scripts de código ejecutable
+│   ├── 01_Clase.R
+│   ├── 02_Clase.R
+│   ├── 03_Clase.R
+│   ├── 03_SummarizedExperiment.R
+│   ├── 04_Clase.R
+│   ├── 04_recount3.R
+│   └── 05_modelos.R
+│
+├── figuras/                      # Gráficos y visualizaciones generadas
+│   ├── mtcars_gear_vs_mpg.pdf
+│   ├── heatmap_basico.pdf
+│   ├── heatmap_intermedio_anotaciones.pdf
+│   ├── pheatmap_con_nombres.pdf
+│   ├── ReducedDimensionPlot1.pdf
+│   └── SecondFeatureAssayPlot1.pdf
+│
+└── processed-data/               # Datos procesados y objetos guardados
+    ├── session_info.txt
+    ├── session_info.RData
+    ├── SummarizedExperiment_ejemplo.rds
+    ├── sesion_bioconductor_complexheatmap.txt
+    ├── clase2_complexheatmap.RData
+    ├── rse_creado_en_clase.rds
+    ├── sce_layer_spatialLIBD.rds
+    ├── sesion_clase3.txt
+    ├── clase3_completa.RData
+    └── clase4_recount3.RData
 ```
 
 ---
